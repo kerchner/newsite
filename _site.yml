@@ -1,0 +1,23 @@
+name: "Dan's website created with R Markdown"
+output_dir: "."
+navbar:
+  title: "Dan's website created with R Markdown"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/kerchner
+    - icon: fa-graduation-cap fa-lg # ai-GoogleScholar ai-lg # ai-google-scholar-square ai-lg  
+      href: https://scholar.google.com/citations?user=yQqpgogAAAAJ
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/dankerchner
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

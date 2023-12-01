@@ -1,0 +1,18 @@
+---
+title: "Main page content"
+---
+
+# Big title
+
+some text
+
+## Medium title
+
+some more text
+
+* bullet
+* bullet
+
+### Small title
+
+yes, more text
